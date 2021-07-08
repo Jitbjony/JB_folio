@@ -350,7 +350,6 @@ button.preview:hover {
 .contact__container {
 	display: flex;
 	justify-content: space-around;
-	flex-direction: row;
 	flex-wrap: wrap;
 }
 .contact__input {
@@ -416,7 +415,7 @@ button.contact_button {
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
 	body {
 		margin: 0;
 	}
@@ -480,16 +479,23 @@ button.contact_button {
 	.about__img img {
 		width: 300px;
 	}
-	.work__container {
+	/* .work__container {
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: repeat(2, 1fr);
 		column-gap: 2rem;
-	}
+	} */
 	.contact__form {
 		width: 360px;
 	}
 	.contact__container {
+		display: block;
+		justify-content: center;
 		justify-items: center;
+	}
+	section#contact {
+		display: block;
+		margin: 0;
+		padding: 0;
 	}
 }
 
