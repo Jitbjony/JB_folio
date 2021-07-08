@@ -487,17 +487,14 @@ button.contact_button {
 	.contact__form {
 		width: 360px;
 	}
-	.contact__container {
+	/* .contact__container {
 		display: flex;
 		justify-content: space-around;
 		justify-items: center;
-	}
+	} */
 }
 @media screen and (max-width: 767px) {
 	.contact__container {
-		display: flex;
-		justify-content: start;
-		justify-items: center;
 		flex-direction: column;
 	}
 }
