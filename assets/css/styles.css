@@ -466,15 +466,18 @@ button.contact_button {
 		margin-right: var(--mb-4);
 	}
 	.home__img {
-		width: 457px;
-		bottom: 15%;
+		width: 250px;
+		bottom: 0%;
 	}
 
 	.about__container,
 	.skills__container {
-		grid-template-columns: repeat(2, 1fr);
+		/* grid-template-columns: repeat(2, 1fr); */
 		align-items: center;
-		text-align: initial;
+		text-align: center;
+	}
+	img.skills__img {
+		display: none;
 	}
 	.about__img img {
 		width: 300px;
