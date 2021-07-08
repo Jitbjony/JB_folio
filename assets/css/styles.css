@@ -498,6 +498,7 @@ button.contact_button {
 		display: flex;
 		justify-content: start;
 		justify-items: center;
+		flex-direction: column;
 	}
 }
 
